@@ -13,6 +13,8 @@
 		0D3013CC24051F9900130676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3013CA24051F9900130676 /* Main.storyboard */; };
 		0D3013CE24051F9D00130676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D3013CD24051F9D00130676 /* Assets.xcassets */; };
 		0D3013D124051F9D00130676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3013CF24051F9D00130676 /* LaunchScreen.storyboard */; };
+		0D3013DB24051FCC00130676 /* PickerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3013D924051FCB00130676 /* PickerListView.swift */; };
+		0D3013DC24051FCC00130676 /* PickerListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D3013DA24051FCC00130676 /* PickerListView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0D3013CD24051F9D00130676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D3013D024051F9D00130676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D3013D224051F9D00130676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D3013D924051FCB00130676 /* PickerListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerListView.swift; sourceTree = "<group>"; };
+		0D3013DA24051FCC00130676 /* PickerListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerListView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		0D3013C324051F9900130676 /* SBPickerListView */ = {
 			isa = PBXGroup;
 			children = (
+				0D3013D824051FB400130676 /* PickerListView */,
 				0D3013C424051F9900130676 /* AppDelegate.swift */,
 				0D3013C624051F9900130676 /* SceneDelegate.swift */,
 				0D3013C824051F9900130676 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				0D3013D224051F9D00130676 /* Info.plist */,
 			);
 			path = SBPickerListView;
+			sourceTree = "<group>";
+		};
+		0D3013D824051FB400130676 /* PickerListView */ = {
+			isa = PBXGroup;
+			children = (
+				0D3013D924051FCB00130676 /* PickerListView.swift */,
+				0D3013DA24051FCC00130676 /* PickerListView.xib */,
+			);
+			path = PickerListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D3013DC24051FCC00130676 /* PickerListView.xib in Resources */,
 				0D3013D124051F9D00130676 /* LaunchScreen.storyboard in Resources */,
 				0D3013CE24051F9D00130676 /* Assets.xcassets in Resources */,
 				0D3013CC24051F9900130676 /* Main.storyboard in Resources */,
@@ -138,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D3013DB24051FCC00130676 /* PickerListView.swift in Sources */,
 				0D3013C924051F9900130676 /* ViewController.swift in Sources */,
 				0D3013C524051F9900130676 /* AppDelegate.swift in Sources */,
 				0D3013C724051F9900130676 /* SceneDelegate.swift in Sources */,
